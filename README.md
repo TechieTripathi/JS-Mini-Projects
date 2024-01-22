@@ -19,7 +19,7 @@ A collection of small and interactive JavaScript projects showcasing various web
 
 ## Getting Started
 
-1. Clone the repository: `git clone `
+1. Clone the repository: `git clone https://github.com/TechieTripathi/JS-Mini-Projects`
 2. Open a project folder of your choice.
 3. Open the `index.html` file in your browser.
 
