@@ -16,6 +16,10 @@ A collection of small and interactive JavaScript projects showcasing various web
 
 3. **Guessing Number Game:** Embark on an exciting journey of number guessing! This web-based game challenges users to guess a randomly generated number within 10 attempts. If the user fails to guess correctly within the allotted chances, the game restarts, providing endless opportunities to refine your guessing skills. A fantastic project for JavaScript beginners to delve into basic logic, user interaction, and conditional statements.
 
+4. **Todo_List :** A web project featuring HTML, CSS, and JavaScript with three buttons: "Add Task", "Remove Task", and "Clear All Tasks" for managing tasks dynamically. Ideal for beginners learning web development.
+
+5. **Counter:** A simple web project with three buttons (Decrease, Reset, Increase) using HTML, CSS, and JavaScript. Users can interactively decrease, reset, or increase a numeric counter displayed on the screen. Ideal for beginners learning web development.
+
 
 ## Getting Started
 
