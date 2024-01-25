@@ -1,5 +1,9 @@
 body {
-  margin: 0 auto;
+  /* margin: auto; */
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 button {
   width: 15%;
@@ -17,6 +21,14 @@ button {
   font-weight: bold;
 }
 .container2 {
-  margin-top: 12px;
-  width: 200%;
+  margin: 12px 0 20px 0px;
+}
+
+#color-code {
+  /* border: 2px solid red; */
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 12%;
+  display: inline;
+  background-color: whitesmoke;
 }
