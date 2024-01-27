@@ -1,3 +1,6 @@
 # Ignore .vscode folders within all subdirectories
-**/.vscode/
-.vscode/
+/01_Color_Changing/.vscode/
+/02_Keyboard_Insert/.vscode/
+/03_Guessing_Number/.vscode/
+/04_Todo_List/.vscode/
+/05_Counter/.vscode/
