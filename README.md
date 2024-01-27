@@ -18,6 +18,9 @@ A collection of small and interactive JavaScript projects showcasing various web
 
 4. **Todo_List :** A web project featuring HTML, CSS, and JavaScript with three buttons: "Add Task" and "Delete Task", for managing tasks dynamically. Ideal for beginners learning web development.
 
+5. **Counter :** The Counter project is a simple web application that allows users to increment, decrement, and reset a counter value using three buttons. It provides a straightforward interface for tracking counts, w
+6. hich can be useful in various applications such as tallying scores, tracking quantities, or implementing basic interactive elements.
+
 
 ## Getting Started
 
