@@ -19,13 +19,12 @@ A collection of small and interactive JavaScript projects showcasing various web
 4. `Todo_List`: A web project featuring HTML, CSS, and JavaScript with three buttons: "Add Task" and "Delete Task", for managing tasks dynamically. Ideal for beginners learning web development.
 
 5. `Counter`: The Counter project is a simple web application that allows users to increment, decrement, and reset a counter value using three buttons. It provides a straightforward interface for tracking counts, w
-6. hich can be useful in various applications such as tallying scores, tracking quantities, or implementing basic interactive elements.
 
-6. `QR Generator Project`: This project is a JavaScript-based QR generator that allows users to dynamically create QR codes and download them for various purposes. It serves as a handy tool for generating QR codes on-the-fly without the need for any external services or dependencies.
+6. `QR Generator Project`: This project is a JavaScript-based QR generator that allows users to dynamically create QR codes and download them for various purposes. It serves as a handy tool for generating QR codes on the fly without the need for any external services or dependencies.
 ## Getting Started
 
 1. Clone the repository: `git clone https://github.com/TechieTripathi/JS-Mini-Projects`
 2. Open a project folder of your choice.
 3. Open the `index.html` file in your browser.
 
-Feel free to experiment, modify, and learn from these mini projects. Happy coding!
+Feel free to experiment, modify, and learn from these mini-projects. Happy coding!
