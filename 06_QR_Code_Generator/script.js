@@ -1,7 +1,7 @@
 var image = document.getElementById("qr-image");
 let msg = document.getElementById("message");
 let qr_section = document.querySelector(".qr-section");
-let input;
+let user_input;
 // setting qr_section to display none
 function removeMessages() {
   qr_section.style.display = "none";
@@ -19,10 +19,10 @@ document.getElementById("generateBtn").addEventListener("click", (e) => {
   if (image.src !== "") {
     image.style.display = "none";
   }
-  input = document.getElementById("user_input").value;
+  user_input = document.getElementById("user_input").value;
 
-  if (input.trim() !== "") {
-    const url = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${input}`;
+  if (user_input.trim() !== "") {
+    const url = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${user_input}`;
     image.src = url;
     image.style.mixBlendMode = "multiply";
     image.addEventListener("load", () => {
@@ -49,22 +49,20 @@ document.getElementById("generateBtn").addEventListener("click", (e) => {
     setTimeout(removeMessages, 3000);
   }
 });
-document
-  .getElementById("downloadBtn")
-  .addEventListener("click", async (e) => {
-    e.preventDefault();
-    if (input === "") {
-      showQR_section();
-      msg.style.display = "inline";
-      msg.textContent = `There's NO QR to be downloaded`.trim();
+document.getElementById("downloadBtn").addEventListener("click", async (e) => {
+  e.preventDefault();
+  if (user_input === "") {
+    showQR_section();
+    msg.style.display = "inline";
+    msg.textContent = `There's NO QR to be downloaded`.trim();
 
-      setTimeout(removeMessages, 3000);
-    }
-  });
+    setTimeout(removeMessages, 3000);
+  }
+});
 
 // Clear the input field
 document.getElementById("clear").addEventListener("click", (e) => {
-  e.preventDefault()
-  input = "";
-  image.src = ""
+  // e.preventDefault();
+  image.src = "";
+  removeMessages();
 });
