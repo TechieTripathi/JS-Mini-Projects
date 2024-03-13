@@ -60,6 +60,10 @@ document.getElementById("downloadBtn").addEventListener("click", async (e) => {
   }
 });
 
+function checkLoad() {
+  console.log("Image has loaded!");
+}
+
 // Clear the input field
 document.getElementById("clear").addEventListener("click", (e) => {
   // e.preventDefault();
